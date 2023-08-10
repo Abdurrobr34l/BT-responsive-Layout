@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+#none {
+    margin: 0;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* layout section css start  */
+.header, .hero, .body, .small_device, .footer {
+    margin-bottom: 5px;
+    background-color: yellowgreen;
+}
+.box {
+    margin: 5px 0;
+    min-height: 60px;
+    background-color: teal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ---hero section css start---  */
+.disappear {
+    background-color: tomato;
+}
+/* ---hero section css end---  */
+
+/* ---sm(small display)--- only section css start  */
+.specific {
+    background-color: springgreen;
+}
+/* ---sm(small display)--- only section css end  */
+
+/* layout section css end  */
+
